@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Space 4U</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box row">
+				<div class="col-md-12">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="Login">
+							<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+							</form>
+						</div>
+						<div class="tab-pane" id="Registration">
+							<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loading">
+			<div class="finger finger-1">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-2">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-3">
+				<div class="finger-item">
+				  <span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-4">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="last-finger">
+				<div class="last-finger-item"><i></i></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"> <a href="https://2021.spaceappschallenge.org/challenges/statements/discovering-science-connections/teams/space-4u/project"><img src="images/logos/logo-hosting.png" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" style="margin-left: 370px;">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#kerolos sawers">About</a></li>
+                        <li><a href="#kokokoko">categories</a></li>
+                        <li><a href="features.html">connection</a></li>
+                        <li><a href="#kero sawers">Team Members</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+			<li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div id="home" class="first-section" style="background-image:url('uploads/slider1.png');">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 text-center">
+                                <a href="https://2021.spaceappschallenge.org/challenges/statements/discovering-science-connections/teams/space-4u/project"><img src="images/logos/Space (7).png" alt="image"> </a>
+                                <div class="big-tagline">
+							  	<h2 data-animation="animated zoomInRight">DISCOVERING <strong>SCIENCE </strong>CONNECTION</h2>
+									<p class="lead" data-animation="animated fadeInLeft">This website is built to attract people's interest to NASA's science categories.</p>
+									 <a data-scroll href="#kokokoko" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">View categories</a>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a data-scroll href="#kerolos sawers" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInRight">About</a>
+								</div>
+							</div>
+						</div><!-- end row -->            
+					</div><!-- end container -->
+				</div><!-- end section -->
+			</div>
+			<div class="item">
+				<div id="home" class="first-section" style="background-image:url('uploads/imagesspitzer201512151-Kepler452b2-16.jpg');">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 text-center">
+									<img src="images/logos/Space (7).png" alt="image">
+									<h2 data-animation="animated zoomInRight">we reached the <strong>intended</strong> planet</h2>
+									<p class="lead" data-animation="animated fadeInLeft" style="font-size: 30px;">which is planet Kepler-452b.</p>
+									 <a data-scroll href="features.html" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">View connection</a>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							
+								</div>
+							</div>
+						</div><!-- end row -->            
+					</div><!-- end container -->
+				</div><!-- end section -->
+			</div>
+			
+			<!-- Left Control -->
+			<a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
+    <div id="kerolos sawers" class="section wb">
+        <div class="container" >
+            <div class="section-title row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>About</h3>
+                    <p class="lead">This website is built to attract people's interest to NASA's science categories!</p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>Space 4U</h4>
+                        <h2>DISCOVERING SCIENCE CONNECTION</h2>
+                        <p class="lead">This website is built to attract people's interest to NASA's science categories, mainly divided into five main areas (categories): Earth Science, Heliophysics, Astrophysics, Physical and Biological Science, and Planetary Science (all of them are under NASA's Science Mission Directorate). It also focuses on helping understanding these categories in more detail (proving that they are strongly connected), how they integrate, and their importance through providing an example on this connection for a better understanding of the Universe and the Solar System that our planet Earth exists on.</p>
+
+                        <p> Before we talk about their integration (connection), let's start by talking about what are these categories means, their functions, and their importance </p>
+
+                        <a href="features.html" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">connection</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/logos/Space (500 x 300 px) (500 x 275 px) (2).png" alt="" class="img-responsive img-rounded">
+                        <a href="uploads/Space (2000 x 2000 px).mp4"  class="playbutton"><i class="flaticon-play-button"></i></a>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="invis"> 
+
+
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="domain" class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/imagesspitzer201512151-Kepler452b2-16.jpg');">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-5 col-sm-12">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+                </div>
+                <!-- end col -->
+
+               
+                            </div>
+                        </div><!-- end checkdomain-wrapper -->
+                    </form>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="section wb" rgstyle="background: b(255, 255, 255)" id="kokokoko">
+        <div class="container" >
+            <div class="section-title text-center">
+                <h3>NASA's science categories</h3>
+                <p class="lead">NASA's science categories, mainly divided into five main areas (categories): <br> Earth Science, Heliophysics, Astrophysics, Physical and Biological Science, and Planetary Science ..</p>
+            </div><!-- end title -->
+
+            <div class="row dev-list text-center" >
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="widget clearfix">
+                        <img src="uploads/hosting_01.png" alt="" class="img-responsive">
+                        <div class="widget-title" >
+                            <font style="font-size: 1cm" >Earth Science</font>
+                            <br></br>
+                            <small>Its meaning comes from its name</small>
+                        </br>
+                        </div>
+                        <!-- end title -->
+                        <p>which means that it's the science responsible for studying the Earth....!</p>
+                        <br>
+                        <a href="#koko2" data-scroll class="btn btn-light grd1 effect-1 btn-radius btn-brd">Read More...</a>
+                    </br>
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="widget clearfix">
+                        <img src="uploads/Untitled design (1)6322.png" alt="" class="img-responsive">
+                        <div class="widget-title">
+                            <font style="font-size: 1cm" >Heliophysics</font>
+                            <br></br>
+                            <small>Understanding the sun</small>
+                        </div>
+                        <!-- end title -->
+                        <p>To understand what this field means, look at its name. "Helio" in Attic Greek ....!</p>
+
+                <br>
+                        <a href="#koko23" data-scroll class="btn btn-light grd1 effect-1 btn-radius btn-brd">Read More...</a>
+                    </br>
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="widget clearfix">
+                        <img src="uploads/astro(500 x 500 px) (4000 x 4000 px).png" alt="" class="img-responsive">
+                        <div class="widget-title">
+                            <font style="font-size: 1cm" >Astrophysics</font>
+                            <br></br>
+                            <small>A branch of space science.</small>
+                        </div>
+                        <!-- end title -->
+                        <p>this field is responsible for studying most of the astronomical phenomena ....</p>
+<br>
+                        <a href="#koko234" data-scroll class="btn btn-light grd1 effect-1 btn-radius btn-brd">Read More...</a>
+                    </br>
+                    </div><!--widget -->
+                </div><!-- end col -->
+         
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s" style="margin-top: 30px;" style="margin-right: 30px;">
+                    <div class="widget clearfix">
+                        <img src="uploads/biooo (2).png" alt="" class="img-responsive">
+                        <div class="widget-title">
+                            <font style="font-size: 1cm" >Biological & Physical Science</font>
+                            <br></br>
+                            <small>NASA Biological & Physical Sciences</small>
+                        </div>
+                        <!-- end title -->
+                        <p>Biological & Physical Science is an interdisciplinary major that combines subjects in biology and physical sciences....</p>
+<br>
+                        <a href="#koko2345" data-scroll class="btn btn-light grd1 effect-1 btn-radius btn-brd">Read More...</a>
+                    </br>
+                    </div><!--widget -->
+                </div><!-- end col -->
+    
+                <div  class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s" style="margin-top: 30px;"  >
+                    <div class="widget clearfix" >
+                        <img src="uploads/planet (2).png" alt="" class="img-responsive">
+                        <div class="widget-title">
+                            <font style="font-size: 1cm" >Planetary Science</font>
+                            <br></br>
+                            <small> The study of the celestial bodies that orbit stars.</small>
+                        </div>
+                        <!-- end title -->
+                        <p>Its goals come from its name, which means the science of planets (studying)....</p>
+<br>
+<br>
+<br>
+                        <a href="#koko23456" data-scroll class="btn btn-light grd1 effect-1 btn-radius btn-brd">Read More...</a>
+              
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+
+
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div class="section cl">
+		<div class="container">
+			<div class="row text-left stat-wrap">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"> <img src="uploads/122222 (2).png" style="margin-left: -35px;" width="170" height="auto"></span>
+					<p class="stat_count">1</p>
+					<h3>Challenge</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><img src="uploads/122222 (1).png" style="margin-left: -35px;" width="170" height="auto"></span>
+					<p class="stat_count">4</p>
+					<h3>Members</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><img src="uploads/122222 (3).png" style="margin-left: -30px;" width="170" height="auto"></span>
+					<p class="stat_count">5</p>
+					<h3>categories</h3>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+    <div id="kerolos" class="section lb">
+        <div class="container">
+            <div class="section-title text-center" id="koko2" >
+<video src="uploads/Untitled (500 x 500 px) (2000 x 2000 px) (2).mp4" controls loop muted  style="position: absolute;top: 0;right: 650px;width: 550px;height: auto;"> </video>
+<img src="uploads/Untitled (500 x 500 px) (2000 x 2000 px) (2500 x 2000 px) (5000 x 4000 px) (6000 x 4000 px).png" style="position: absolute;top: 0;left: 550px;width: 800px;height: auto;" ></img>
+<br>
+<video id="koko23" src="uploads/Untitled (500 x 500 px) (2000 x 2000 px) (3).mp4" controls loop muted  style="position: absolute;top: 600px;left: 650px;width: 550px;height: auto;"> </video>
+<img src="uploads/Untitled (500 x 500 px) (2000 x 2000 px) (2500 x 2000 px) (5000 x 4000 px) (6000 x 4000 px) (1).png" style="position: absolute; top: 660px;right: 460px;width: 800px;height: auto;" ></img>
+            </br>
+            <br>
+ <video id="koko234" src="uploads/ASTRO(500 x 500 px) (4000 x 4000 px) (1).mp4" controls loop muted  style="position: absolute;top: 1210px; right: 650px;width: 550px;height: auto;"> </video>
+ <img src="uploads/Astro (500 x 500 px) (2000 x 2000 px) (2500 x 2000 px) (5000 x 4000 px) (6000 x 4000 px) (1).png" style="position: absolute; top: 1280px; left: 460px;width: 800px;height: auto;" ></img>
+       </br>    
+       <br>
+       <video id="koko2345" src="uploads/biooo (1).mp4" controls loop muted  style="position: absolute;top: 1810px; left: 650px;width: 550px;height: auto;"> </video>
+       <img src="uploads/biooo (1).png" style="position: absolute; top: 1820px; right: 460px;width: 800px;height: auto;" ></img>
+             </br>   
+             <br>
+             <video id="koko23456" src="uploads/planet (1).mp4" controls loop muted  style="position: absolute;top: 2410px; right: 650px;width: 550px;height: auto;"> </video>
+             <img src="uploads/planet (1).png" style="position: absolute; top: 2435px; left: 485px;width: 800px;height: auto;" ></img>
+                   </br>   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+                <div class="tab-pane fade" id="tab2">
+                            <div class="row text-center">
+                         </div>
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+                    </div><!-- end content -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="kero sawers" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <font style="font-size: 2cm" >Team Member</font>
+                <br>
+
+               <font style="font-size: 1cm" >Let's see the members of the Team!</font>
+
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Ismailia STEM High School</h3>
+                                <p class="lead"> High school junior with a great interest in mechanical and electrical engineering areas, computer science, and Artificial Intelligence. I am a +2 year experienced cybersecurity analyst with proficiency in programming languages like C, C++, Python, javascript, HTML, CSS.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>Mahmoud Adel<small>- Mohamed Amer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Ismailia STEM High School</h3>
+                                <p class="lead">High school junior with a great interest in chemistry , biochemistry , Astronomy and computer science I have good skills like Teamwork skills, communication skills, creativity and innovation skills and Organizational Skills. that I work as a Content writing besides Graphic design and web development.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Kerolos Medhat<small>- Kerolos Sawers</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Ismailia STEM High School</h3>
+                                <p class="lead">High school junior with interest Science and Math so I joined STEM school. I have skills in Web Developing, Animation and Graphic design. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4> Kirollos Magdy <small>- Magdy</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>Ismailia STEM High School</h3>
+                                <p class="lead">High school junior with interest in biology, chemistry, physics, and studying Arabic grammar. I am a swimmer at Canal Sporting Club, Ismailia..</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_04.png" alt="" class="img-responsive alignleft">
+                                <h4>Yousef Fathi Ahmed <small>- El-Ghandour </small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <section class="section nopad cac text-center">
+        <a href="#kokokoko"><h3>This website is built to attract people's interest to NASA's science categories.</h3></a>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+              
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img style="margin-left: 350px;" width="400" height="auto" src="uploads/Space (186 x 41 px) (5).png" alt="">
+                            <font style="margin-left: 420px;" style="font-size: 20px"  >DISCOVERING_SCIENCE_CONNECTION</font>
+
+
+                        </div>
+                        <br>
+                        <p style="margin-top: -20px;"> This website is built to attract people's interest to NASA's science categories, mainly divided into five main areas (categories): Earth Science, Heliophysics, Astrophysics, Physical and Biological Science, and Planetary Science (all of them are under NASA's Science Mission Directorate). It also focuses on helping understanding these categories in more detail (proving that they are strongly connected), how they integrate, and their importance through providing an example on this connection for a better understanding of the Universe and the Solar System that our planet Earth exists on..</p>
+
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
